@@ -1,0 +1,36 @@
+.sininback{
+    background-color: white;
+}
+.loginform{
+width: 35%;
+height: 450px;
+background-color: white;
+color: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-transform: capitalize;
+box-shadow: 2px 2px 5px black;
+z-index: 1;
+border-radius: 25px;
+}
+
+.loginbtn{
+    background-color: black;
+    border-radius: 15px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px black;
+}
+.loginbtn:hover{
+    background-color: white;
+    color: black;
+}
+@media screen and (max-width:620px) {
+    .loginform{
+        width: 70%;
+    }
+}
